@@ -60,7 +60,16 @@ Use the `extract` method exposed via OLE to extract text from PDF files. This me
     pyinstaller pyOle_file.spec    # Create one file package
     pyinstaller pyOle_dir.spec     # Create one directory package
     ```
-This will generate a standalone executable to install into any computer( no python needed ).
+This will generate a standalone executable in 'dist' folder to install into any computer( no python needed ).
+```bash
+pyOle.exe --register
+```
+
+To unregister the OLE server, run:
+```bash
+pyOle.exe --unregister
+```
+
 
 ### Creating an Installer with NSIS
 1. Download and install NSIS from [NSIS Download Page](https://nsis.sourceforge.io/Download).
@@ -84,3 +93,4 @@ This project is licensed under the MIT License.
 
 Feel free to clone, modify, and share this project to suit your needs.
 
+🔗 **[Click here to donate.](https://paypal.me/DiegoHernanFazio)** 
