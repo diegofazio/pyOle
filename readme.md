@@ -60,7 +60,7 @@ Use the `extract` method exposed via OLE to extract text from PDF files. This me
     pyinstaller pyOle_file.spec    # Create one file package
     pyinstaller pyOle_dir.spec     # Create one directory package
     ```
-This will generate a standalone executable in 'dist' folder to install into any computer( no python needed ).
+This will generate either a standalone executable or a folder containing an executable in './dist', ready to install on any computer (no Python needed).
 ```bash
 pyOle.exe --register
 ```
