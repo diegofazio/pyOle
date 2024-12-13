@@ -16,7 +16,7 @@ Install the required libraries using the provided `requirements.txt` file:
 
 ```bash
 pip install -r requirements.txt
-python Scripts\pywin32_postinstall.py -install    <- Run from python.exe folder
+python Scripts\pywin32_postinstall.py -install  # Run from python.exe folder
 ```
 
 ---
