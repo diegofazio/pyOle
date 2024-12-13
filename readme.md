@@ -73,6 +73,7 @@ This will generate a standalone executable to install into any computer( no pyth
 - Ensure all required dependencies are installed before building or running the project.
 - For more information on PyInstaller, refer to [PyInstaller Documentation](https://pyinstaller.org).
 - For more information on NSIS, refer to [NSIS Documentation](https://nsis.sourceforge.io/Docs).
+- Tested with Python 3.12
 
 ---
 
