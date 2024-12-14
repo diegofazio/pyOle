@@ -53,6 +53,9 @@ Use the `extract` method exposed via OLE to extract text from PDF files. This me
 
 ### Using PyInstaller
 1. Install PyInstaller if not already installed:
+    ```bash
+    pip install pyinstaller
+    ```
   - pyOle_file.spec: One file package
   - pyOle_dir.spec: One directory package
   - Usage: 
